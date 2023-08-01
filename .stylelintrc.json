@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-idiomatic-order"
+    ],
+    "rules": {
+        "at-rule-no-unknown": null,
+        "scss/at-rule-no-unknown": null,
+        "scss/at-import-partial-extension-blacklist": null,
+        "function-parentheses-space-inside": null,
+        "indentation": 4,
+        "max-nesting-depth": null,
+        "order/properties-alphabetical-order": null,
+        "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]*[a-z0-9]*)?$",
+        "selector-class-pattern": null,
+        "selector-no-qualifying-type": [true, {"ignore": ["attribute"]}],
+        "selector-max-id": 1,
+        "selector-max-compound-selectors": 5
+    }
+}

@@ -1,0 +1,25 @@
+{
+    //* Editor
+    "editor.renderWhitespace": "all",
+    //* Javascript
+    "javascript.validate.enable": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    //* CSS
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "scss"],
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    //* Extension: Prettier
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.tabWidth": 4,
+}

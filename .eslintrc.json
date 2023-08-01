@@ -1,0 +1,40 @@
+{
+    "extends": [
+        "airbnb-base",
+        "prettier"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        "arrow-body-style": [2, "as-needed"],
+        "max-len": [1, {
+            "code": 100,
+            "tabWidth": 4,
+            "comments": 120,
+            "ignoreUrls": true,
+            "ignoreComments": false,
+            "ignoreRegExpLiterals": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true
+        }],
+        "no-param-reassign": [2, {
+            "props": false
+        }],
+        "no-plusplus": 0,
+        "no-restricted-syntax": [
+            2,
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "no-use-before-define": 0,
+        "import/extensions": [2, "ignorePackages"],
+        "import/no-extraneous-dependencies": 0
+    }
+}

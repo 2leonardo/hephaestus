@@ -1,0 +1,14 @@
+{
+
+    "name": "2leonardo/hephaestus",
+    "type": "project",
+    "description": "Starter configuration files for projects",
+    "keywords": ["template"],
+    "authors": [
+        {
+            "name": "2leonardo",
+            "email": "2leonardo.esposito@gmail.com"
+        }
+    ],
+    "license": "MIT"
+}
