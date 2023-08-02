@@ -1,4 +1,16 @@
 {
+    "files.exclude": {
+        ".browserslistrc": true,
+        ".deployignore": true,
+        ".editorconfig": true,
+        ".eslintrc.json": true,
+        ".gitignore": true,
+        ".prettierrc": true,
+        ".stylelintignore": true,
+        ".stylelintrc.json": true,
+        "babel.config.json": true,
+        "commitlint.config.cts": true
+    },
     //* Editor
     "editor.renderWhitespace": "all",
     //* Javascript
